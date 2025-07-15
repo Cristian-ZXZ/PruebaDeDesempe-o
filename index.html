@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eventos</title>
+  <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body class="body">
+  <!-- Encabezado visible solo en escritorio -->
+  <header class="header header--desktop">
+  <div class="header__logo">sistema de eventos</div>
+  <nav class="header__nav">
+    <a href="#" class="header__link">Inscripciones</a>
+    <a href="https://juandavidolaya.github.io/sistema_eventos/login.html" class="header__link">Iniciar sesión admin</a>
+    <a href="./register.html" class="header__link">Registrame</a>
+
+  </nav>
+</header>
+
+<!-- Navbar inferior solo visible en móviles -->
+<nav class="navbar navbar--mobile">
+  <a href="#" class="navbar__link">
+    <span class="navbar__icon">🏠</span>
+    <span class="navbar__label">Inscripciones</span>
+  </a>
+
+  <a href="#" class="navbar__link">
+    <span class="navbar__icon">🎫</span>
+    <span class="navbar__label">Iniciar sesión</span>
+  </a>
+  <a href="#" class="navbar__link">
+    <span class="navbar__icon">📩</span>
+    <span class="navbar__label">Registrame</span>
+  </a>
+</nav>
+  <section class="events" id="eventos">
+    <!-- Aquí se cargarán los eventos dinámicamente desde main.js -->
+    <!-- El archivo main.js tiene un arreglo llamado 'eventos'. Otra persona debe modificar ese arreglo para añadir o quitar eventos. -->
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="footer__bottom">© 2025 Todos los derechos reservados</div>
+  </footer>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>

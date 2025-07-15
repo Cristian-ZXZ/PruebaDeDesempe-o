@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrudNote - Register</title>
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+
+  <main class="register">
+    <div class="register__inner">
+      <div class="register__form">
+        <h1 class="register__title">Registrame</h1>
+        <form class="register__form-content" id="registerForm">
+          <label class="register__label" for="registerUsername">Nombre Completo</label>
+          <input id="registerUsername" class="register__input" type="text" placeholder="Ingresa tu nombre completo" required>
+
+          <label class="register__label" for="registerEmail">Correo Electrónico </label>
+          <input id="registerEmail" class="register__input" type="email" placeholder="Ingresa tu correo electrónico" required>
+
+          <label class="register__label" for="registerPassword">Contraseña</label>
+          <input id="registerPassword" class="register__input" type="password" placeholder="Crea una contraseña" required>
+
+          <button type="submit" class="register__btn register__btn--primary">Registrarme</button>
+        </form>
+        <p class="register__footer">¿Ya tienes una cuenta? <a class="register__link" href="index.html">Iniciar sesión</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
